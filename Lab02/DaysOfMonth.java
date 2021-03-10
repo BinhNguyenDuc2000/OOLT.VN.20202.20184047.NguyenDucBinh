@@ -158,5 +158,6 @@ public class DaysOfMonth {
         }
 
         System.out.println("Today is " +iDay + "/" + iMonth + "/" + iYear );
+        System.exit(0);
     }
 }
