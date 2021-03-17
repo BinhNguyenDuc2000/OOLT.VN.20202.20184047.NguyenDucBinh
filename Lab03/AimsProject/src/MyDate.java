@@ -134,7 +134,7 @@ public class MyDate {
 		switch (displayType) {
 		case 1:
 		{
-			sc = new Scanner(date).useDelimiter(" ");
+			sc = new Scanner(date).useDelimiter("/");
 			year = sc.next();
 			month = sc.next();
 			day = sc.next();
@@ -142,14 +142,14 @@ public class MyDate {
 		}
 		case 2:
 		{
-			sc = new Scanner(date).useDelimiter(" ");
+			sc = new Scanner(date).useDelimiter("/");
 			month = sc.next();
 			day = sc.next();
 			year = sc.next();
 			break;
 		}
 		default:
-			sc = new Scanner(date).useDelimiter(" ");
+			sc = new Scanner(date).useDelimiter("/");
 			day = sc.next();
 			month = sc.next();
 			year = sc.next();
