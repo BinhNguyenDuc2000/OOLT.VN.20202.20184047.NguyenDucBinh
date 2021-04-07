@@ -2,8 +2,8 @@ package hust.soict.hedspi.aims.media;
 
 public class Media {
 	private int id;
-	private String title;
-	private String category;
+	private String title = "Not known title";
+	private String category = "Not known category";
 	private float cost;
 	
 	// Constructor

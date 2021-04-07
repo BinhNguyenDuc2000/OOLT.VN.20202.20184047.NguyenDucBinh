@@ -114,7 +114,10 @@ public class Aims {
 					}
 					System.out.println("The order has:");
 					for (int j=0;j<listOrder.get(i).getItemsOrdered().size();j++) {
-						System.out.println(listOrder.get(i).getItemsOrdered().get(j).getId());
+						Media tmp = listOrder.get(i).getItemsOrdered().get(j);
+						System.out.println(tmp.getTitle() + " - "
+								+tmp.getCategory() + " - "
+								+tmp.getId());
 					}
 					return;
 				}
