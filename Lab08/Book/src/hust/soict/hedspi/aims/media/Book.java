@@ -89,6 +89,9 @@ public class Book extends Media {
 	
 	@Override
 	public String toString() {
-		return wordFrequency.toString();
+		String info=wordFrequency.toString();
+		info = info + "\nThere are a total of " + wordFrequency.size() + " Token\n";
+		info = info + "The Book tilte is " + getTitle();
+		return info;
 	}
 }
